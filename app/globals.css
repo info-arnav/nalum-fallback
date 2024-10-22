@@ -1,5 +1,5 @@
 :root {
-  --red: #b43737;
+  --red: #7f1f22;
   --black: #181818;
 }
 
@@ -28,7 +28,7 @@ nav {
   justify-content: center;
   color: white;
   margin: 0;
-  box-shadow: 0px 0px 6px 1px #4f4f4f;
+  box-shadow: 0px 0px 6px 1px #1b1b1b;
 }
 
 nav * {
