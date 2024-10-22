@@ -34,6 +34,12 @@ export const metadata = {
     siteName: "Nalum - NSUT Alumni Portal",
     locale: "en_US",
     type: "website",
+    images: {
+      url: "https://nsut.alumninet.in/banner.png",
+      width: 4412,
+      height: 2475,
+      alt: "Photo of NSUT Admin Building with NSUT logo on Top",
+    },
   },
   twitter: {
     card: "summary_large_image",
