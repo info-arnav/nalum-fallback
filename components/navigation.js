@@ -8,12 +8,6 @@ export default function Navigation() {
         <Link href="/" className="link">
           Home
         </Link>
-        <Link href="/about" className="link">
-          About
-        </Link>
-        <Link href="/contact-us" className="link">
-          Contact
-        </Link>
       </div>
       <Notifications
         messages={[

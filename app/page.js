@@ -14,7 +14,7 @@ export default function Home() {
       <main className="home">
         <div className="banner">
           <div className="overlay">
-            <div className="title">Welcome To Nalum</div>
+            <div className="title">WELCOME TO NALUM</div>
           </div>
         </div>
       </main>
