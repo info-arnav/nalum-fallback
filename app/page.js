@@ -1,95 +1,58 @@
+import Footer from "@/components/footer";
+import Navigation from "@/components/navigation";
 import Image from "next/image";
-import styles from "./page.module.css";
+import NsutLogo from "@/components/static/nsut-logo.png";
+import AlumniGroup from "@/components/static/alumni-group.png";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <>
+      <div className="home-nav">
+        <Image src={NsutLogo} height={50}></Image>
+      </div>
+      <Navigation></Navigation>
+      <main className="home">
+        <div className="banner">
+          <div className="overlay">
+            <div className="title">Welcome To Nalum</div>
+          </div>
         </div>
       </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <main className="about">
+        <div className="table">
+          <div className="col">
+            <Image
+              src={AlumniGroup}
+              height="0"
+              width="0"
+              style={{ width: "100%", height: "auto" }}
+            ></Image>
+          </div>
+          <div className="col">
+            <h1>Welcome, alumni, students, and friends of NSUT!</h1>
+            <p>
+              Whether you're here to reconnect, expand your professional
+              network, support NSUT’s growth, or explore the impact of giving
+              back, you’re in the right place. Our portal offers you a seamless
+              way to engage with the vibrant NSUT community, get involved with
+              alumni activities, and discover opportunities to contribute.
+            </p>
+            <p>
+              For those looking to give back, we’ll guide you on how to make a
+              difference, where your support matters most, and the legacy it
+              leaves behind. If you’re here to reconnect, explore our network,
+              career services, and upcoming alumni events. Discover the NSUT
+              that inspires you.
+            </p>
+            <p>
+              Alumni, students, and friends like you fuel NSUT’s journey toward
+              greater heights. Join us and stay proud to be part of the NSUT
+              family.
+            </p>
+          </div>
+        </div>
+      </main>
+      <Footer></Footer>
+    </>
   );
 }
