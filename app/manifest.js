@@ -13,6 +13,7 @@ export default function manifest() {
         src: "/favicon.ico",
         sizes: "any",
         type: "image/x-icon",
+        alt: "Logo of Nalum - ALumni Portal of NSUT",
       },
       {
         src: "/logo.png",

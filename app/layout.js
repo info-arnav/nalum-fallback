@@ -47,6 +47,12 @@ export const metadata = {
         height: 2475,
         alt: "Photo of NSUT Admin Building with NSUT logo on Top",
       },
+      {
+        url: "https://nsut.alumninet.in/square-logo.png",
+        width: 500,
+        height: 500,
+        alt: "Logo of Nalum - ALumni Portal of NSUT",
+      },
     ],
   },
   twitter: {
