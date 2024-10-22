@@ -32,26 +32,6 @@ export const metadata = {
       "Connect with NSUT, NSIT, and DIT alumni to expand your network, explore career opportunities, and give back through Nalum, the official NSUT Alumni Portal.",
     url: "https://nsut.alumninet.in",
     siteName: "Nalum - NSUT Alumni Portal",
-    images: [
-      {
-        src: "https://nsut.alumninet.in/logo.png",
-        width: "250",
-        height: "193",
-        alt: "Logo of Nalum - The NSUT Alumni Portal",
-      },
-      {
-        src: "https://nsut.alumninet.in/banner.png",
-        width: "4412",
-        height: "2475",
-        alt: "Photo of NSUT Admin Building with NSUT logo on Top",
-      },
-      {
-        src: "https://nsut.alumninet.in/square-logo.png",
-        height: "500",
-        width: "500",
-        alt: "Logo of Nalum - The NSUT Alumni Portal",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
