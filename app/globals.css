@@ -67,7 +67,7 @@ nav .links .link:hover {
 .home .banner {
   min-height: calc(100vh - 140px);
   width: 100%;
-  background-image: url("../components/static/home-banner.png");
+  background-image: url("../components/static/home-banner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
