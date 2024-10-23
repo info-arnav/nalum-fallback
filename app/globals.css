@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -241,13 +242,17 @@ footer {
   padding: 20px;
 }
 
-footer .row {
+footer .cell {
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   flex: 1;
   font-size: 14px;
+}
+
+footer .cell.long {
+  flex: 2;
 }
 
 footer * {
@@ -263,4 +268,25 @@ footer .icons {
   align-items: center;
   justify-content: center;
   margin: 10px;
+}
+
+@media only screen and (max-width: 740px) {
+  footer {
+    display: block;
+  }
+  footer .cell {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  footer .cell {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  footer .cell.long {
+    display: block;
+  }
 }
