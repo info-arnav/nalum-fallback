@@ -2,6 +2,7 @@ import Navigation from "@/components/navigation";
 import NsutLogo from "@/components/static/nsut-logo-black.png";
 import ErrorBanner from "@/components/static/error-banner.png";
 import Image from "next/image";
+import Footer from "@/components/footer";
 
 export default function NotFound() {
   return (
@@ -30,6 +31,7 @@ export default function NotFound() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

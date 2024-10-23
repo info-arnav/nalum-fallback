@@ -5,6 +5,7 @@ import NsutLogo from "@/components/static/nsut-logo-black.png";
 import ErrorBanner from "@/components/static/error-banner.png";
 import Image from "next/image";
 import { useEffect } from "react";
+import Footer from "@/components/footer";
 
 export default function Error({ error, reset }) {
   useEffect(() => {
@@ -37,6 +38,7 @@ export default function Error({ error, reset }) {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

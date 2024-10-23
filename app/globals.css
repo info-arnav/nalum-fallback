@@ -1,6 +1,7 @@
 :root {
   --red: #7f1f22;
   --black: #181818;
+  --light-red: #b43737;
 }
 
 * {
@@ -211,7 +212,7 @@ nav .links .link:hover {
 }
 
 .notifs .notif {
-  background-color: rgba(255, 255, 255, 0.534);
+  background-color: rgba(255, 255, 255, 0.889);
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
@@ -226,4 +227,40 @@ nav .links .link:hover {
 
 .notifs .notif .body {
   margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--black);
+  min-height: 150px;
+  border-top: solid var(--light-red) 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex: 1;
+  font-size: 14px;
+}
+
+footer * {
+  color: white;
+}
+
+footer .icons {
+  background-color: rgba(255, 255, 255, 0.625);
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
